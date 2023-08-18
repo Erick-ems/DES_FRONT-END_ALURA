@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 
 const BarraContainer = styled.div `
-    width: 47rem; 
+    width: 40rem; 
     display: flex;
     justify-self: center;
 `

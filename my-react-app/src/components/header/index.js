@@ -1,9 +1,10 @@
 import styled from "styled-components"
 import Logo from "../logo"
 import Barra from "../barraDePesquisa"
+import Icone from "../iconeUsuario"
 
 const HeaderContainer = styled.header`
-    width: 86rem;
+    width: 82rem;
     height: 3.5rem;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -20,6 +21,7 @@ function Header () {
         <HeaderContainer>
             <Logo/>
             <Barra/>
+            <Icone/>
         </HeaderContainer>
 
 
